@@ -68,7 +68,7 @@ fi
 
 read -p "7880809396:AAG9ugPqJcGniUeVgQFne_mzbjyH6IEwR_o" token
 read -p "8150418484" id
-sed -i "s/const token = 'your token here'/const token = '$token'/g" index.js
-sed -i "s/const id = 'chat id here'/const id = '$id'/g" index.js
+sed -i "s/const token = '7880809396:AAG9ugPqJcGniUeVgQFne_mzbjyH6IEwR_o'/const token = '$token'/g" index.js
+sed -i "s/const id = '8150418484'/const id = '$id'/g" index.js
 echo "Server uploaded successfully! Now open new tab and follow rest instructions"
 node index.js
